@@ -1,0 +1,23 @@
+{
+  "name": "resty",
+  "version": "0.0.0",
+  "description": " Resty serves JSON objects to help you build your front end before your data services is complete.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "rest",
+    "json",
+    "mock",
+    "stub",
+    "prototype"
+  ],
+  "author": "Sean Canton",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
