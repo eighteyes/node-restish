@@ -18,3 +18,4 @@ options = {
 
 resty(options);
 ````
+This will open a server on port 8000, and only respond to a call to `/test` with the `{ abc: '123'}` object.
