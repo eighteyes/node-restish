@@ -1,5 +1,6 @@
-var resty = require('resty');
+var restish = require('restish');
 
+// also supports silent: true for no logs
 options = {
   port : 8000,
   routes: {
@@ -8,4 +9,4 @@ options = {
   }
 }
 
-resty(options);
+restish(options);

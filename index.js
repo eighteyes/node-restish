@@ -1,9 +1,7 @@
 var http = require('http'),
   util = require('util');
 
-
-
-var resty = function(options) {
+var Restish = function(options) {
   var port = options.port;
   var routes = options.routes;
 
@@ -14,7 +12,7 @@ var resty = function(options) {
     for (var key in routes) {
       if (req.url.match(key)) {
         if ( !options.silent )
-        console.log('Resty matches on key:', key);
+        console.log('Restish matches on key:', key);
         obj = routes[key];
       }
     }
@@ -36,8 +34,8 @@ var resty = function(options) {
 
   server.listen(port, function() {
     if ( !options.silent )
-    console.log("Resty Listening on Port:" + port);
+    console.log("Restish Listening on Port:" + port);
   });
 }
 
-module.exports = resty;
+module.exports = Restish;

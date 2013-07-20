@@ -1,12 +1,12 @@
 {
-  "name": "resty",
-  "version": "0.0.0",
-  "description": " Resty serves JSON objects to help you build your front end before your data services is complete.",
+  "name": "restish",
+  "version": "0.1.0",
+  "description": "Restish serves JSON objects",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
-  "repository": "https://github.com/eighteyes/node-resty.git",
+  "repository": "https://github.com/eighteyes/node-restish.git",
   "keywords": [
     "rest",
     "json",
@@ -15,6 +15,6 @@
     "prototype"
   ],
   "author": "Sean Canton",
-  "license": "BSD",
+  "license": "GPL",
   "readmeFilename": "README.md"
 }
