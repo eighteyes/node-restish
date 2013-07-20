@@ -6,10 +6,7 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "",
+  "repository": "https://github.com/eighteyes/node-resty.git",
   "keywords": [
     "rest",
     "json",
