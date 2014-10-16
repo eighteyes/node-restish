@@ -2,7 +2,7 @@ var http = require('http'),
   util = require('util');
 
 var Restish = function(options) {
-  var port = options.port;
+  var port = options.port || 8000;
   var routes = options.routes;
 
   var server = http.createServer(function(req, res) {
